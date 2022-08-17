@@ -38,6 +38,7 @@
     overflow: hidden;
     position: relative;
     margin-top: 50px;
+    height: 100vh;
 }
   
   .slider {
@@ -260,7 +261,7 @@
      margin: auto;
      text-align: center;
      background-color: #1c7bfd;
-     height: 100vh;
+     height: 110vh;
      
  }
 
@@ -279,7 +280,7 @@
    .container-slider {
      
      position: relative;
-     height: 80%;
+     height: 100%;
      margin-top: 30px;
      width: 95%;
      display: grid;
@@ -915,6 +916,7 @@
 
     .contenedor2 {
         height: 150vh;
+        margin-bottom: 25px;
     }
     .lascajitas {
         display: grid;
@@ -1451,7 +1453,7 @@ aside{
        .navUl.show {
            display: flex;
            align-items: center;
-           margin-right: 40px;
+           
            
           
        }
@@ -1460,6 +1462,7 @@ aside{
        width: 100%;
        flex-direction: column;
        gap: 20px;
+       margin: 0px 0px 0px 0px;
        
 
       }

@@ -77,3 +77,10 @@ function deleteClass() {
 botonAbrir.addEventListener("click", addClass)
 botonAbrir2.addEventListener("click", addClass)
 botonCerrar.addEventListener("click", deleteClass)
+
+const hamburguer = document.getElementById("hamburger");
+const navUl = document.getElementById("navUl");
+
+hamburguer.addEventListener("click", () => {
+    navUl.classList.toggle('show')
+})

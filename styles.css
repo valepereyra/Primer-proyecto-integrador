@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -38,7 +39,7 @@
     overflow: hidden;
     position: relative;
     margin-top: 50px;
-    height: 100vh;
+    height: 80vh;
 }
   
   .slider {
@@ -61,7 +62,7 @@
     width: 40px;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.2);
-    top: 260%;
+    top: 295%;
     transform: translateY(40%);
     font-size: 30px;
     font-weight: bold;
@@ -289,6 +290,8 @@
      
  }
 
+
+ /* Se agregó !important para que el add de clase por el slider se quite*/
  
  .slider {
      width: 100%;
@@ -617,6 +620,8 @@
     .titulo-cardModal2 > p {
         padding: 5px;
         color: #5227cc;
+        font-size: 14px;
+        text-align: center;
     }
     
     .imagen-cardModal2 {
@@ -648,13 +653,14 @@
     grid-template-columns: 1fr;
 }
 .soluciones {
-    height: 100%;
+    height: 80vh;
     grid-column: 1;
     background-color: #5298ff;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    
 }
 .acomodador {
     grid-row: 1;
@@ -713,7 +719,7 @@
     margin: auto;
     gap: 40px;
     background-color: whitesmoke;
-    height: 80vh;
+    height: 90vh;
     
 }
 .texoBajoSoluciones {
@@ -1406,6 +1412,7 @@ aside{
    color: white;
    align-items: center;
    width: 120px;
+   cursor: pointer;
    }
    .button {
     display: none;  
@@ -1489,9 +1496,10 @@ aside{
     .flexcontainer {
         display: flex;
         width: 100%;  
+        
         background-image:radial-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.5)),
         url("imagenes/manos.jpg");
-        height: 400px;
+        height: 80vh;
         background-size: cover;
         justify-content: center;
         align-items: center;

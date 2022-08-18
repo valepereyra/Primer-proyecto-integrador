@@ -57,7 +57,7 @@ function addClass() {
     modal.classList.add('active');
     blur.classList.add('active');
     nosotros.classList.add('active');
-    nav.classList.add('active')
+    nav.classList.add('active');
 }
 
 function deleteClass() {
@@ -70,7 +70,7 @@ function deleteClass() {
     modal.classList.remove('active');
     blur.classList.remove('active');
     nosotros.classList.remove('active');
-    nav.classList.remove('active')
+    nav.classList.remove('active');
 }
 
 
